@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "ProductDetail",
+    "line": 1,
+    "id": "productdetail",
+    "tags": [],
+    "uri": "productDetail.feature",
+    "elements": [
+      {
+        "id": "productdetail;i-verify-all-elements-on-product-detail-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "I verify all elements on product Detail Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 6567000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Navigate to product detail page with \"laptop\"",
+            "result": {
+              "status": "passed",
+              "duration": 8325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I verify product price",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I verify Add to cart button",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "ProductList",
+    "line": 1,
+    "id": "productlist",
+    "tags": [],
+    "uri": "productList.feature",
+    "elements": [
+      {
+        "id": "productlist;plp-funtionality-check",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "PLP funtionality Check",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 6457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Navigate to \"television\" product listing page",
+            "result": {
+              "status": "passed",
+              "duration": 8012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Verify product cards are visible",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;valid-user-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Valid User Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 6728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Login with \"validUser\" credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1919000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User logs out of Application",
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should get logout",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

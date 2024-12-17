@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "search;search-with-product-category",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "search with product category",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 6553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on Search bar",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I search a product category",
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify product category overview",
+            "result": {
+              "status": "passed",
+              "duration": 1880000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
